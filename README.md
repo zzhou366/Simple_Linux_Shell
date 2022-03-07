@@ -10,10 +10,13 @@ command: <br/>
 Make sure to put /bin/ before linux command otherwise the interpreter won't find the command <br/>
 
 ## Built-in command
-alias <br/>
+### alias 
 To create an alias <br/>
 alias [shortcut] [linux command] <br/>
 To display all of the alias <br/>
 alias <br/>
 To display one specific alias <br/>
 alias [shortcut] <br/>
+### unalias
+To delete an alias <br/>
+unalias [shortcut] <br/>
