@@ -2,7 +2,18 @@
 I implement a command line interpreter, or shell, on top of Unix.
 
 ## Useage
-To compile and run the command line interpreter
-<command>: <br/>
+To compile and run the command line interpreter <br/>
+command: <br/>
           make <br/>
           ./mysh <br/>
+## Linux command Usage
+Make sure to put /bin/ before linux command otherwise the interpreter won't find the command <br/>
+
+## Built-in command
+alias <br/>
+To create an alias <br/>
+alias [shortcut] [linux command] <br/>
+To display all of the alias <br/>
+alias <br/>
+To display one specific alias <br/>
+alias [shortcut] <br/>
